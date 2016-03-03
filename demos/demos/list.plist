@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>首页</string>
+			<key>image_on</key>
+			<string>home_on.png</string>
+			<key>image_off</key>
+			<string>home_off.png</string>
+			<key>class</key>
+			<string>[ViewController1 class]</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>时刻</string>
+			<key>image_on</key>
+			<string>time_on.png</string>
+			<key>image_off</key>
+			<string>time_off.png</string>
+			<key>class</key>
+			<string>[ViewController2 class]</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>体质</string>
+			<key>image_on</key>
+			<string>physical_on.png</string>
+			<key>image_off</key>
+			<string>physical_off.png</string>
+			<key>class</key>
+			<string>[ViewController3 class]</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>体征</string>
+			<key>image_on</key>
+			<string>data_on.png</string>
+			<key>image_off</key>
+			<string>data_off.png</string>
+			<key>class</key>
+			<string>ViewController4 class]</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>提醒</string>
+			<key>image_on</key>
+			<string>remind_on.png</string>
+			<key>image_off</key>
+			<string>remind_off.png</string>
+			<key>class</key>
+			<string>[ViewController5 class]</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>健步</string>
+			<key>image_on</key>
+			<string>rank_on.png</string>
+			<key>image_off</key>
+			<string>rank_off.png</string>
+			<key>class</key>
+			<string>[ViewController6 class]</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>消息</string>
+			<key>image_on</key>
+			<string>message_on.png</string>
+			<key>image_off</key>
+			<string>message_off.png</string>
+			<key>class</key>
+			<string>[ViewController7 class]</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>设置</string>
+			<key>image_on</key>
+			<string>setting_on</string>
+			<key>image_off</key>
+			<string>setting_off</string>
+			<key>class</key>
+			<string>[ViewController8 class]</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>反馈</string>
+			<key>image_on</key>
+			<string>feedback_on</string>
+			<key>image_off</key>
+			<string>feedback_off</string>
+			<key>class</key>
+			<string>[ViewController9 class]</string>
+		</dict>
+	</array>
+</array>
+</plist>
