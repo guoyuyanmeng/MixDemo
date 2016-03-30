@@ -59,5 +59,41 @@
          make.top.left.bottom.and.right.equalTo(sv).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
          */
     }];
+    
+    //
+    UIButton *btn1=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [btn1 setTitle:@"disPatchSemaphore" forState:UIControlStateNormal];
+    [btn1 addTarget:self action:@selector(disPatchSemaphoreAction) forControlEvents:UIControlEventTouchUpInside];
+    [sv1 addSubview:btn1];
+    
+    [btn1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(sv1).with.offset(100);
+        make.left.equalTo(sv1).with.offset(50);
+        make.bottom.equalTo(sv1).with.offset(-100);
+        make.right.equalTo(sv1).with.offset(-50);
+    }];
+    
 }
+
+-(void) disPatchSemaphoreAction {
+    
+    dispatch_group_t group = dispatch_group_create();
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(5);
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    for (int i = 0; i < 20; i++) {
+        dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+        dispatch_group_async(group, queue, ^{
+            NSLog(@"%i",i);
+            sleep(3);
+            dispatch_semaphore_signal(semaphore);
+        });
+    }
+    
+    dispatch_group_wait(group, DISPATCH_TIME_FOREVER);
+    
+}
+
+
+
 @end

@@ -1,0 +1,179 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Base64 (1.0.1)
+  - CocoaAsyncSocket (7.4.2)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - CRToast (0.0.9)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - Mantle (1.4.1):
+    - Mantle/extobjc (= 1.4.1)
+  - Mantle/extobjc (1.4.1)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - MMXXMPPFramework (3.6.13):
+    - MMXXMPPFramework/Core (= 3.6.13)
+    - MMXXMPPFramework/CoreDataStorage (= 3.6.13)
+    - MMXXMPPFramework/Reconnect (= 3.6.13)
+    - MMXXMPPFramework/Roster (= 3.6.13)
+    - MMXXMPPFramework/XEP-0060 (= 3.6.13)
+    - MMXXMPPFramework/XEP-0082 (= 3.6.13)
+    - MMXXMPPFramework/XEP-0106 (= 3.6.13)
+    - MMXXMPPFramework/XEP-0203 (= 3.6.13)
+  - MMXXMPPFramework/Core (3.6.13):
+    - CocoaAsyncSocket (~> 7.4.1)
+    - CocoaLumberjack (~> 2.2)
+  - MMXXMPPFramework/CoreDataStorage (3.6.13):
+    - MMXXMPPFramework/Core
+  - MMXXMPPFramework/Reconnect (3.6.13):
+    - MMXXMPPFramework/Core
+  - MMXXMPPFramework/Roster (3.6.13):
+    - MMXXMPPFramework/Core
+    - MMXXMPPFramework/CoreDataStorage
+    - MMXXMPPFramework/XEP-0203
+  - MMXXMPPFramework/XEP-0060 (3.6.13):
+    - MMXXMPPFramework/Core
+  - MMXXMPPFramework/XEP-0082 (3.6.13):
+    - MMXXMPPFramework/Core
+  - MMXXMPPFramework/XEP-0106 (3.6.13):
+    - MMXXMPPFramework/Core
+  - MMXXMPPFramework/XEP-0203 (3.6.13):
+    - MMXXMPPFramework/Core
+    - MMXXMPPFramework/XEP-0082
+  - RDVTabBarController (1.1.9)
+  - SDCycleScrollView (1.61):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SFHFKeychainUtils (0.0.1)
+  - Toast (3.0)
+  - TPKeyboardAvoiding (1.2.11)
+  - TWTToast (0.17):
+    - TWTToast/CoreAnimation (= 0.17)
+    - TWTToast/Foundation (= 0.17)
+    - TWTToast/Mantle (= 0.17)
+    - TWTToast/UIKit (= 0.17)
+  - TWTToast/CoreAnimation (0.17):
+    - TWTToast/CoreAnimation/EasingFunctions (= 0.17)
+  - TWTToast/CoreAnimation/EasingFunctions (0.17)
+  - TWTToast/Foundation (0.17):
+    - TWTToast/Foundation/AsynchronousOperation (= 0.17)
+    - TWTToast/Foundation/BlockEnumeration (= 0.17)
+    - TWTToast/Foundation/ConcurrentAccessor (= 0.17)
+    - TWTToast/Foundation/DateRange (= 0.17)
+    - TWTToast/Foundation/ErrorUtilities (= 0.17)
+    - TWTToast/Foundation/KVO (= 0.17)
+    - TWTToast/Foundation/NSArrayIndexPathAdditions (= 0.17)
+    - TWTToast/Foundation/SubclassResponsibility (= 0.17)
+    - TWTToast/Foundation/TreeNode (= 0.17)
+  - TWTToast/Foundation/AsynchronousOperation (0.17)
+  - TWTToast/Foundation/BlockEnumeration (0.17)
+  - TWTToast/Foundation/ConcurrentAccessor (0.17)
+  - TWTToast/Foundation/DateRange (0.17)
+  - TWTToast/Foundation/ErrorUtilities (0.17)
+  - TWTToast/Foundation/KVO (0.17)
+  - TWTToast/Foundation/NSArrayIndexPathAdditions (0.17)
+  - TWTToast/Foundation/SubclassResponsibility (0.17):
+    - TWTToast/Foundation/ErrorUtilities
+  - TWTToast/Foundation/TreeNode (0.17)
+  - TWTToast/Mantle (0.17):
+    - Mantle (~> 1.4.0)
+    - TWTToast/Mantle/MantleModel (= 0.17)
+    - TWTToast/Mantle/ModelClassDeserialization (= 0.17)
+    - TWTToast/Mantle/SelectiveJSONAdapter (= 0.17)
+  - TWTToast/Mantle/MantleModel (0.17):
+    - Mantle (~> 1.4.0)
+  - TWTToast/Mantle/ModelClassDeserialization (0.17):
+    - Mantle (~> 1.4.0)
+    - TWTToast/Foundation/BlockEnumeration
+  - TWTToast/Mantle/SelectiveJSONAdapter (0.17):
+    - Mantle (~> 1.4.0)
+  - TWTToast/UIKit (0.17):
+    - TWTToast/UIKit/AutoLayout (= 0.17)
+    - TWTToast/UIKit/BlockActions (= 0.17)
+    - TWTToast/UIKit/Blocks (= 0.17)
+    - TWTToast/UIKit/Color (= 0.17)
+    - TWTToast/UIKit/Device (= 0.17)
+    - TWTToast/UIKit/NibBackedView (= 0.17)
+    - TWTToast/UIKit/PrepareForSegue (= 0.17)
+    - TWTToast/UIKit/SnapshotImage (= 0.17)
+    - TWTToast/UIKit/TextStyle (= 0.17)
+    - TWTToast/UIKit/ViewControllerCompletion (= 0.17)
+    - TWTToast/UIKit/ViewControllerTransitions (= 0.17)
+  - TWTToast/UIKit/AutoLayout (0.17)
+  - TWTToast/UIKit/BlockActions (0.17)
+  - TWTToast/UIKit/Blocks (0.17)
+  - TWTToast/UIKit/Color (0.17)
+  - TWTToast/UIKit/Device (0.17)
+  - TWTToast/UIKit/NibBackedView (0.17)
+  - TWTToast/UIKit/PrepareForSegue (0.17)
+  - TWTToast/UIKit/SnapshotImage (0.17)
+  - TWTToast/UIKit/TextStyle (0.17)
+  - TWTToast/UIKit/ViewControllerCompletion (0.17)
+  - TWTToast/UIKit/ViewControllerTransitions (0.17)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - Base64 (~> 1.0.1)
+  - CRToast (~> 0.0.9)
+  - FMDB (~> 2.6)
+  - Masonry (~> 0.6.4)
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.0)
+  - MMXXMPPFramework (~> 3.6.13)
+  - RDVTabBarController (~> 1.1.9)
+  - SDCycleScrollView (~> 1.61)
+  - SDWebImage (~> 3.7.5)
+  - SFHFKeychainUtils (~> 0.0.1)
+  - Toast (~> 3.0)
+  - TPKeyboardAvoiding (~> 1.2.11)
+  - TWTToast (~> 0.17)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Base64: 4924bf3ca6fa559a5161ef717291bd450eb7bd1a
+  CocoaAsyncSocket: f5783bdedd232d91b89769bc4b5a1580aed518ad
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  Mantle: 3219c0181d918508689af61c77891b12dbb28215
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MMXXMPPFramework: fd2c0a9450082cc25270bf9f8b1aec7b67e7a21e
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  SDCycleScrollView: a002d85b30cfa9d0ac74069cd3973ca19ff4f22f
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SFHFKeychainUtils: 9576b411a79a058f4d5381ace6f3242b9a62e664
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
+  TWTToast: 6d47c48b5cdbfcfa6108b81d11e0e6b8e370e6d0
+
+COCOAPODS: 0.39.0
